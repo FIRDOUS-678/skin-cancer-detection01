@@ -1,0 +1,18 @@
+{
+  "type": "dl",
+  "name": "MobileNetV2",
+  "model_file": "best_model.keras",
+  "class_names": [
+    "dermis",
+    "dermquest"
+  ],
+  "img_size": 224,
+  "ml_img_size": 128,
+  "test_metrics": {
+    "acc": 0.7903225806451613,
+    "precision": 0.7713675213675213,
+    "recall": 0.7950058072009292,
+    "f1": 0.7772865432439902,
+    "auc": 0.89198606271777
+  }
+}
